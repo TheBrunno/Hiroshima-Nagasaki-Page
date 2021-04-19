@@ -35,17 +35,21 @@ nav ul{
     margin: 0 30px;
 }
 nav{
-    background-image: linear-gradient(to right, #d90429, #ef233c);
-    padding: 14px 0;
+    background-image: linear-gradient(to right, #e52f50, #a4278f);
     position: fixed;
     width: 100%;
+    height: auto;
+}
+#localizacao{
+    background-image: linear-gradient(to bottom, #dce2e6 10%, #e52f5000 50%);
 }
 nav ul li a{
+    display: inline-block;
     text-decoration: none;
     color: #FFF;
     font-weight: 400;
     font-size: 1.2em;
-    padding: 2px 3px;
+    padding: 15px 10px;
 }
 .cidades{
     font-weight: 600;
@@ -72,16 +76,47 @@ section div{
     display: flex;
     margin-top: 20px;
 }
-p{
+section p, section li{
     font-size: 1.5em;
     margin: 0 60px;
     text-align: justify;
 }
 section a{
-    color: #d90429;
+    color: #e52f50;
     text-decoration: none;
 }
 section{
     margin: 0 0 50px 0;
     padding-top: 50px;
+}
+table{
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 90%;
+    margin: 0 50px;
+}
+table td{
+    text-align: center;
+}
+tbody th{
+    text-align: left;
+}
+th, td{
+    padding: 5px;
+    border: solid 1px black;
+}
+footer{
+    height: auto;
+    background-image: linear-gradient(to bottom right, #e52f50, #a4278f);
+}
+footer p{
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 0 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+.nome{
+    text-decoration: underline;
 }
